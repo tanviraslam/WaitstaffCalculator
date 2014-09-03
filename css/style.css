@@ -1,0 +1,88 @@
+/**{
+   outline: 1px black solid;
+}*/
+
+h2{
+  text-align: center;
+}
+
+.container{
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.w-calculator{
+  position: absolute;
+  top: 60px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.w-calculator p{
+  margin-left: 10px;
+}
+
+.meal-details{
+  position: absolute;
+  top: 5%;
+  height: 90%;
+  width: 40%;
+  left: 8%;
+  display: inline-block;
+}
+
+.cus-charges, .earnings-info{
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  right: 8%;
+  display: inline-block;
+}
+
+.meal-details, .cus-charges, .earnings-info{
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #888;
+}
+
+.earnings-info{
+  top: 55%;
+}
+
+.cus-charges{
+  top: 5%;
+}
+
+form input[type="number"]{
+  position: absolute;
+  right: 5%;
+}
+
+.spacer{
+  width: inherit;
+  height: 20px;
+}
+
+form label{
+  margin-left: 15px;
+}
+
+form button{
+  position: relative;
+  left: 30%;
+  margin-left: 15px;
+  margin-top: 60px;
+}
+
+.reset{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
